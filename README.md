@@ -91,3 +91,13 @@ post MVP:
 | debuging & cleaning the code | H | 3hrs| 3.5hrs | 3.5hrs |
 | Total | H | 40 | 5hrs | 5hrs |
 
+
+## SWOT Analysis
+
+### Strengths:
+i know exacly what i want my app to look like 
+### Weaknesses:
+have no idea where to start
+### Opportunities:
+
+### Threats:
