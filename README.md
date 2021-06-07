@@ -47,27 +47,33 @@ wireframe: https://lucid.app/lucidchart/faf252c8-d798-453e-892c-8f00a65042cf/edi
     "offset": "recP35GyyZfz2U6fU"
 }
   ```
+  
 wireframe2:
-https://lucid.app/lucidchart/fbafe3b7-c166-4524-80f6-0a367a4b07e4/edit?invitationId=inv_df0e3812-b946-412d-852e-84b31611af61mvp:
-Be a working, interactive React app, built using create react app.
-Utilize React Router, installed via NPM.
-Have at least 6 separate, rendered components.
-Implement an organized and understandable React file structure.
-Utilize functional and class React components appropriately.
-Use Axios to consume data from Airtable, and GET/render that data in your components.
-Use Axios to POST/create new data on Airtable.
-Use only React for DOM Manipulation.
+https://lucid.app/lucidchart/fbafe3b7-c166-4524-80f6-0a367a4b07e4/edit?invitationId=inv_df0e3812-b946-412d-852e-84b31611af61
+
+mvp:
+- Be a working, interactive React app, built using create react app.
+- Utilize React Router, installed via NPM.
+- Have at least 6 separate, rendered components.
+- Implement an organized and understandable React file structure.
+- Utilize functional and class React components appropriately.
+- Use Axios to consume data from Airtable, and GET/render that data in your components.
+- Use Axios to POST/create new data on Airtable.
+- Use only React for DOM Manipulation.
  
 post MVP:
-brand css design - edit option -
+- brand css design 
+- edit option 
+
+
 |  Day | Deliverable | Status
 |---|---| ---|
-|May 14-16| Prompt / Wireframes / Timeframes | Incomplete
-|May 17| Project Approval / Core Application Structure (HTML, CSS, etc.) | incomplete
-|May 18| Pseudocode / actual code | incomplete
-|May 19| Initial Clickable Model  | incomplete
-|May 20| MVP | Incomplete
-|May 21| Presentations | incomplete
+|june 5-7| Prompt / Wireframes / Timeframes | Incomplete
+|june 7| Project Approval / Core Application Structure (HTML, CSS, etc.) | incomplete
+|june 8| Pseudocode / actual code | incomplete
+|june 9| Initial Clickable Model  | incomplete
+|june 10| MVP | Incomplete
+|june 11| Presentations | incomplete
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
