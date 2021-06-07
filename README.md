@@ -56,11 +56,8 @@ mvp:
 - being able to post/delete data to/from airtable api
 - using flexbox for css design 
 - utilize react routher
-- being able to post/delete data to/from airtable api
 - only use react to manipulate dom 
 - have at least 6 separate component 
-- being able to post/delete data to/from airtable api
-- being able to post/delete data to/from airtable api
 
  
 post MVP:
