@@ -2,7 +2,7 @@ app description: an app that posts/delet info on SCP's and their containment sta
 
 API: https://api.airtable.com/v0/app4akQCQecToEdQV/Table%201 
 
-wireframe: https://lucid.app/lucidchart/faf252c8-d798-453e-892c-8f00a65042cf/edit?beaconFlowId=830BE8E55D0D6874&invitationId=inv_d68bdb18-63d9-43ca-ba77-85e66381e4fc&page=0_0#
+wireframe: https://lucid.app/lucidchart/faf252c8-d798-453e-892c-8f00a65042cf/edit?invitationId=inv_d68bdb18-63d9-43ca-ba77-85e66381e4fc
 
 ``` "SCP-173"
 "The Sculpture "
@@ -13,8 +13,7 @@ wireframe: https://lucid.app/lucidchart/faf252c8-d798-453e-892c-8f00a65042cf/edi
 "https://static.wikia.nocookie.net/lego/images/0/0d/SCP-173-
   ```
 wireframe2:
-https://lucid.app/lucidchart/fbafe3b7-c166-4524-80f6-0a367a4b07e4/edit?page=0_0&invitationId=inv_df0e3812-b946-412d-852e-84b31611af61#
-mvp:
+https://lucid.app/lucidchart/fbafe3b7-c166-4524-80f6-0a367a4b07e4/edit?invitationId=inv_df0e3812-b946-412d-852e-84b31611af61mvp:
 Be a working, interactive React app, built using create react app.
 Utilize React Router, installed via NPM.
 Have at least 6 separate, rendered components.
