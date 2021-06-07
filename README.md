@@ -28,7 +28,7 @@ post MVP:
 brand css design - edit option -
 |  Day | Deliverable | Status
 |---|---| ---|
-|May 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|May 14-16| Prompt / Wireframes / Timeframes | Incomplete
 |May 17| Project Approval / Core Application Structure (HTML, CSS, etc.) | incomplete
 |May 18| Pseudocode / actual code | incomplete
 |May 19| Initial Clickable Model  | incomplete
