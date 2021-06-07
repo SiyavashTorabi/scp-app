@@ -41,7 +41,7 @@ brand css design - edit option -
 | Adding boilerplate | H | 3hrs| 3.5hrs | 3.5hrs |
 | Adding bar for web info,add scp ,link to my github | H | 3hrs| 3.5hrs | 3.5hrs |
 | creating a text input butoon| H | 3hrs| 3.5hrs | 3.5hrs |
-| removing rendered data | H | 3hrs | 3.5hrs | 3.5hrs |
+| deleting rendered data | H | 3hrs | 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | find and connetct img to dtat | H | 3hrs| 3.5hrs | 3.5hrs |
 | brand designing info | H | 3hrs| 3.5hrs | 3.5hrs |
