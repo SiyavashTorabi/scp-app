@@ -52,14 +52,16 @@ wireframe2:
 https://lucid.app/lucidchart/fbafe3b7-c166-4524-80f6-0a367a4b07e4/edit?invitationId=inv_df0e3812-b946-412d-852e-84b31611af61
 
 mvp:
-- Be a working, interactive React app, built using create react app.
-- Utilize React Router, installed via NPM.
-- Have at least 6 separate, rendered components.
-- Implement an organized and understandable React file structure.
-- Utilize functional and class React components appropriately.
-- Use Axios to consume data from Airtable, and GET/render that data in your components.
-- Use Axios to POST/create new data on Airtable.
-- Use only React for DOM Manipulation.
+- being able to get data from the airtable api
+- being able to post/delete data to/from airtable api
+- using flexbox for css design 
+- utilize react routher
+- being able to post/delete data to/from airtable api
+- only use react to manipulate dom 
+- have at least 6 separate component 
+- being able to post/delete data to/from airtable api
+- being able to post/delete data to/from airtable api
+
  
 post MVP:
 - brand css design 
