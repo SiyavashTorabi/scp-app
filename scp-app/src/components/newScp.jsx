@@ -1,0 +1,56 @@
+import { useState } from "react";
+import { createSuperHero } from "../services/api";
+
+const defaultObj = {
+  name: "",
+  powers: "",
+  gender: "",
+  secretIdentity: "",
+  costumeColors: "",
+  universe: "",
+  weaknesses: "",
+  image: "",
+};
+
+export default function NewScp() {
+  const [input, setInput] = useState(defaultObj);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setInput((prevInput) => ({
+      ...prevInput,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const res = await createScp(input);
+    console.log(res);
+  };
+
+  return (
+    <div>
+      <h3>capture a new SCP</h3>
+      <form onChange={handleChange} onSubmit={handleSubmit}>
+        <label>SCP-</label>
+        <input type="text" name="SCP" />
+        <br />
+        <label>SCP-title</label>
+        <input type="text" name="Title" />
+        <br />
+        <label>object-Class</label>
+        <input type="text" name="object-Class" />
+        <br />
+        <label>SCP-Description</label>
+        <input type="text" name="SCP-Description" />
+        <br />
+        <label>SCP-img</label>
+        <input type="text" name="SCP-img" />
+        <br />
+        <button type="submit">Create</button>
+      </form>
+    </div>
+  );
+}
