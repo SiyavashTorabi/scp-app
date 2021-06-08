@@ -1,4 +1,5 @@
 import Route from "Router"
+import NewScp from "./components/newScp";
 function App() {
   return (
     <div className="App">
@@ -6,13 +7,10 @@ function App() {
     
     <Switch>
       <Route exact path="/SCP's">
-        <SuperHeroList />
+        <ScpList />
       </Route>
       <Route exact path="/SCP's/new">
-        <NewSuperHero />
-      </Route>
-      <Route path="/SCP/:id">
-        <SuperHeroDetail />
+        <newScp />
       </Route>
       <Route path="/edit/SCP/:id">
         <div>Edit</div>
