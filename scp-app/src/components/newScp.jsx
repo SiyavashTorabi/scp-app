@@ -1,15 +1,13 @@
 import { useState } from "react";
-import { createSuperHero } from "../services/api";
+
 
 const defaultObj = {
-  name: "",
-  powers: "",
-  gender: "",
-  secretIdentity: "",
-  costumeColors: "",
-  universe: "",
-  weaknesses: "",
-  image: "",
+  SCP: "",
+  SCP_title: "",
+  object_Class: "",
+  SCP_description: "",
+  SCP_img: "",
+  more_info: "",
 };
 
 export default function NewScp() {
