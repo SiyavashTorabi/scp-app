@@ -1,25 +1,25 @@
 import { useEffect, useState } from "react";
-import { getAllScps, getAllSuperHeros } from "../services/api";
+import { getAllScps} from "../services/api";
 import { Link } from "react-router-dom";
 
 export default function ScpList() {
-  const [heros, setHeros] = useState([]);
+  const [scp, setScp] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       const res = await getAllScps();
       console.log(res);
-      setHeros(res);
+      setScp(res);
     };
     fetchData();
   }, []);
 
   return (
     <div>
-      {scp.map((scp) => {
+      {scp.map((scpItem) => {
         return (
-          <div key={hero.id}>
-            <Link to={`/scp/${scp.id}`}>{scp.fields.name}</Link>
+          <div key={scpItem.id}>
+            <Link to={`/scp/${scpItem.id}`}>{scpItem.fields.SCP}</Link>
           </div>
         );
       })}

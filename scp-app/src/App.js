@@ -1,5 +1,8 @@
-import Route from "Router"
-import NewScp from "./components/newScp";
+import { Route, Switch } from "react-router-dom";
+import NewScp from "./components/NewScp";
+import ScpList from "./components/ScpList";
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 function App() {
   return (
     <div className="App">
@@ -10,7 +13,7 @@ function App() {
         <ScpList />
       </Route>
       <Route exact path="/SCP's/new">
-        <newScp />
+        <NewScp />
       </Route>
       <Route path="/edit/SCP/:id">
         <div>Edit</div>
