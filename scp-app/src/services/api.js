@@ -23,7 +23,7 @@ export const getAllScps = async () => {
 export const getOneScp = async (id) => {
   try {
     const res = await axios.get(`${baseURL}/${id}`, config);
-    return res.data;
+    return res.data.records;
   } catch (error) {
     console.error(error);
     return error;

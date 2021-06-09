@@ -9,10 +9,10 @@ export default function Navbar() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/SCP's">All SCP's</Link>
+          <Link to="/SCPs">All SCP's</Link>
         </li>
         <li>
-          <Link to="/SCP's/new">New SCP</Link>
+          <Link to="/SCPs/new">New SCP</Link>
         </li>
       </ul>
     </nav>
