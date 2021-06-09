@@ -19,8 +19,12 @@ export default function ScpList() {
       {scp.map((scpItem) => {
         return (
           <div key={scpItem.id}>
-            <Link to={`/scp/${scpItem.id}`}>{scpItem.fields.SCP}</Link>
-          </div>
+            {/* <div key={scpItem.SCP_description}> */}
+
+            
+              <Link to={`/scp/${scpItem.id}`}>{scpItem.fields.SCP}</Link>
+              </div>
+          // </div>
         );
       })}
     </div>

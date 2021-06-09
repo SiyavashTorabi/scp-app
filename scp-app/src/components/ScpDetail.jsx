@@ -7,8 +7,8 @@ export default function ScpDetail() {
   const { id } = useParams();
   // console.log(id)
   useEffect(() => {
-    const fetchData = async () => {
-      const res = await getOneScp(id);
+    const fetchData = async (fields) => {
+      const res = await getOneScp(fields);
       console.log(res)
       setScp(res)
     }
@@ -16,8 +16,8 @@ export default function ScpDetail() {
   }, []);
 
   return (
-    <div>
-{/* {scp.fields.SCP_description} */}
+    <div className={`scp-info ${id}`}>
+  {/* //  key={scp.fields}> */}
 
   </div>
 );
