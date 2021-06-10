@@ -27,12 +27,13 @@ export default function NewScp() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const res = await createScp(input);
-   history.push('/SCPs')
+     history.push('/SCPs')
   };
 
   return (
     <div>
-      <h3>capture a new SCP</h3>
+      <h3>capture a new SCP-{input.SCP}</h3>
+
       <form onChange={handleChange} onSubmit={handleSubmit}>
         <label>SCP-</label>
         <input type="text" name="SCP" />
