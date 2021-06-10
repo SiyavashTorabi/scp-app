@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiKey = process.env.REACT_APP_AIRTABLE_KEY;
-const baseURL = "https://api.airtable.com/v0/app4akQCQecToEdQV/Table%201?";
+const baseURL = "https://api.airtable.com/v0/app4akQCQecToEdQV/Table%201";
 
 
 const config = {
@@ -23,7 +23,9 @@ export const getAllScps = async () => {
 export const getOneScp = async (id) => {
   try {
     const res = await axios.get(`${baseURL}/${id}`, config);
-    return res.data.records;
+    console.log(res.data)
+    return res.data;
+    
   } catch (error) {
     console.error(error);
     return error;

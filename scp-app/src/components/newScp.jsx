@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { createScp } from "../services/api"
+import { createScp } from "../services/api";
+import { useHistory } from "react-router-dom";
 
 const defaultObj = {
   SCP: "",
@@ -12,6 +13,7 @@ const defaultObj = {
 
 export default function NewScp() {
   const [input, setInput] = useState(defaultObj);
+  const history = useHistory();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -25,7 +27,7 @@ export default function NewScp() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const res = await createScp(input);
-    console.log(res);
+   history.push('/SCPs')
   };
 
   return (
@@ -36,16 +38,16 @@ export default function NewScp() {
         <input type="text" name="SCP" />
         <br />
         <label>SCP-title</label>
-        <input type="text" name="Title" />
+        <input type="text" name="SCP_title" />
         <br />
         <label>object-Class</label>
-        <input type="text" name="object-Class" />
+        <input type="text" name="object_Class" />
         <br />
         <label>SCP-Description</label>
-        <input type="text" name="SCP-Description" />
+        <input type="text" name="SCP_description" />
         <br />
         <label>SCP-img</label>
-        <input type="text" name="SCP-img" />
+        <input type="text" name="SCP_img" />
         <br />
         <button type="submit">Create</button>
       </form>
