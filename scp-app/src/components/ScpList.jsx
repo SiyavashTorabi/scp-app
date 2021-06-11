@@ -22,7 +22,8 @@ export default function ScpList() {
             <div key={scpItem.id}>
               {/* <div key={scpItem.SCP_description}> */}
 
-              <Link to={`/scp/${scpItem.id}`}>{scpItem.fields.SCP}</Link>
+              <Link className="SCP-links" to={`/scp/${scpItem.id}`}>{scpItem.fields.SCP},
+               {scpItem.fields.SCP_title}</Link>
             </div>
             // </div>
           );

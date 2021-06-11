@@ -4,7 +4,7 @@ import ScpList from "./components/ScpList";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScpDetail from "./components/ScpDetail";
-
+import "./App.css"
 function App() {
   return (
     <div className="App">

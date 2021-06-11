@@ -1,5 +1,10 @@
 .App {
+  display: block;
   text-align: center;
+  background-color: black;
+  color: aliceblue;
+  justify-content: center;
+  
 }
 
 .App-header {
@@ -14,10 +19,47 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #17a2c8;
 }
 
 .footer {
   position: sticky;
   border: 1rem red;
+}
+.form-container{
+display: flex;
+justify-content: center;
+margin: 0 auto;
+padding: 30px;
+justify-content: center;
+
+}
+
+.create-button {
+  background-color: #17a2c8;
+  margin: 10px;
+ height: 38px;
+ width: 75px;
+justify-content: center;
+}
+.input {
+  margin: 10px;
+  padding: 10px;
+}
+.navlink {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(12, 145, 197);
+  justify-content: center;
+
+}
+.navlink:visited {
+text-decoration: none;
+}
+.SCP-links {
+  color: #17a2c8;
+  font-size: small;
+  margin: 15px;
+  padding: 20px;
+  justify-content: center;
 }

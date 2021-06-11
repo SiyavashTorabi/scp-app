@@ -6,13 +6,13 @@ export default function Navbar() {
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link className="navlink" to="/">Home</Link>
         </li>
         <li>
-          <Link to="/SCPs">All SCP's</Link>
+          <Link className="navlink" to="/SCPs">All SCP's</Link>
         </li>
         <li>
-          <Link to="/SCPs/new">New SCP</Link>
+          <Link className="navlink" to="/SCPs/new">New SCP</Link>
         </li>
       </ul>
     </nav>

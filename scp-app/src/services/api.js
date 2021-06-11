@@ -14,7 +14,7 @@ export const getAllScps = async () => {
   try {
     const res = await axios.get(baseURL, config);
     return res.data.records;
-    console.log(res.data.records)
+
   } catch (error) {
     console.error(error);
   }

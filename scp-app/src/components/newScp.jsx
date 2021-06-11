@@ -26,14 +26,14 @@ export default function NewScp() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await createScp(input);
-     history.push('/SCPs')
+    await createScp(input);
+ history.push('/SCPs')
   };
 
   return (
-    <div>
+  <>
       <h3>capture a new SCP-{input.SCP}</h3>
-
+<div className="form-container">
       <form onChange={handleChange} onSubmit={handleSubmit}>
         <label>SCP-</label>
         <input type="text" name="SCP" />
@@ -50,8 +50,9 @@ export default function NewScp() {
         <label>SCP-img</label>
         <input type="text" name="SCP_img" />
         <br />
-        <button type="submit">Create</button>
+        <button className="create-button" type="submit">Create</button>
       </form>
-    </div>
+      </div>
+      </>
   );
 }
