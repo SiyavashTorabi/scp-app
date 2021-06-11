@@ -1,4 +1,5 @@
 # SCP-app
+scp-app URL : https://lucid-wiles-f50192.netlify.app
 app description: an app that posts/delet info on SCP's and their containment status and a brief ddescription of the anomaly and their class 
 
 API: https://api.airtable.com/v0/app4akQCQecToEdQV/Table%201 
