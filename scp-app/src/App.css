@@ -36,7 +36,7 @@ html {
   bottom: 0;
   width: 100%;
   height: 40px; /* Height of the footer */
-  background: rgb(10, 111, 161);
+  background: rgb(9, 57, 57);
   margin-top: 30px;
 }
 .form-container {
@@ -45,7 +45,7 @@ html {
   margin: 0 auto;
   padding: 30px;
   justify-content: space-evenly;
-  border: 5px white;
+  border: 5px rgb(202, 102, 102);
 }
 .form {
   display: inline-block;
@@ -61,12 +61,13 @@ html {
   justify-content: center;
 }
 input {
-  display: inline-table;
+  display: block;
   text-align: center;
-  margin: 5px;
-  padding: 3px;
+  margin: 7px;
+  padding: 5px;
   justify-content: flex-start;
 }
+
 .navlink {
   text-align: center;
   text-decoration: none;
@@ -77,12 +78,15 @@ input {
   text-decoration: none;
 }
 .SCP-links {
-  display: inline-block;
-  color: #17a2c8;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  color: rgb(10, 10, 10);
   font-size: small;
-  margin: 10px;
-
-  justify-content: center;
+  margin: 13px;
+background-color: rgb(12, 145, 197);
+padding: 13px;
+width: 200px;
 }
 ul {
   display: inline-block;
@@ -96,22 +100,63 @@ ul {
   justify-content: space-between;
 }
 img {
+  display: inline-block;
   justify-content: center;
+  align-items: center;
   text-align: center;
-  grid-template: subgrid;
-  float: none;
-  max-height: 400px;
-  max-width: 250px;
+  float: center;
+  max-height: 450px;
+  max-width: 300px;
   margin: 20px;
   padding: 30px;
 }
 .Mlink {
-  display: inline-block;
+  display: block;
+  color: #0ca1ca;
   justify-content: center;
   text-align: center;
+  margin: 30px;
 }
 .navlink {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  background-color: rgb(9, 57, 57);
+}
+.datacontainer {
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #13161c;
+  margin: 15px;
+  padding: 30px;
+}
+.IT {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.scp-info {
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+.dlt {
+  color: red;
+  width: 60px;
+  height: 30px;
+}
+.scpimg {
+display: inline-flex;
+justify-content: start;
+align-items: flex-start;
+width: 50px;
+height: 50px;
+margin: 0%;
+padding: 0%;
 }

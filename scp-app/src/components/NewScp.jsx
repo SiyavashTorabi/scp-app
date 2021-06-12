@@ -34,7 +34,7 @@ export default function NewScp() {
   <>
       <h3> new SCP-{input.SCP}</h3>
 <div className="form-container">
-      <form onChange={handleChange} onSubmit={handleSubmit}>
+      <form className="datacontainer" onChange={handleChange} onSubmit={handleSubmit}>
         <label>SCP-</label>
         <input  type="text" name="SCP" />
         <br />

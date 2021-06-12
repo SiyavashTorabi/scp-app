@@ -11,11 +11,17 @@ function App() {
       <Navbar />
 
       <Switch>
+        
         <Route exact path="/SCPs">
-          <ScpList />
-          <div>
+        <div>
+          <img className="scpimg" src="./scp.jpg" alt="scp-logo" />
             <h2>welcome to site 15,& our Archive of captured/contained Anomalies. </h2>
           </div>
+          <ScpList />
+          {/* <div>
+          <img className="scpimg" src="./scp.jpg" alt="scp-logo" />
+            <h2>welcome to site 15,& our Archive of captured/contained Anomalies. </h2>
+          </div> */}
         </Route>
         <Route exact path="/SCP/:id">
           <ScpDetail />
@@ -28,9 +34,10 @@ function App() {
         </Route>
         <Route path="/">
           <div>
+          <img src="./scp.jpg" alt="scp-logo" />
             <h2> Homepage </h2>
-            <h4>Welcome to SCP foundation where we contain-protect-secure Anomalys in order to keep humanity safe & use this app in order to keep records of captured Anomalys! </h4>
-            <h5>we fight in dark in ordr to keep humanity safe, any refrence/mention to/of this Facility by any party (no exaption) to the Outside world will be TERMINATED!</h5>
+            <h4>Welcome to SCP foundation where we Secure-Contain-Protect Anomalys in order to keep humanity safe & use this app in order to keep records of captured Anomalys! </h4>
+            <h5>we fight in dark in ordr to keep humanity safe, any refrence/mention to/of this Facility by any party (no exaption) to the Outside world is to be TERMINATED!</h5>
             
             </div>
         </Route>

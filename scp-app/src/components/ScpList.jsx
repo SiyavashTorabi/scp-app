@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getAllScps } from "../services/api";
-import { Link } from "react-router-dom";
+import { Link, } from "react-router-dom";
+
 
 export default function ScpList() {
   const [scps, setScps] = useState([]);
@@ -19,11 +20,12 @@ export default function ScpList() {
       {scps &&
         scps.map((scpItem) => {
           return (
-            <div key={scpItem.id}>
+            <div className="SCP-links" key={scpItem.id}>
               {/* <div key={scpItem.SCP_description}> */}
 
-              <Link className="SCP-links" to={`/scp/${scpItem.id}`}>{scpItem.fields.SCP},
-               {scpItem.fields.SCP_title}</Link>
+              <Link className="SCP-links" to={`/scp/${scpItem.id}`}>
+                {scpItem.fields.SCP}, {scpItem.fields.SCP_title}
+              </Link>
             </div>
             // </div>
           );
