@@ -1,15 +1,23 @@
 .App {
   display: block;
+  height: 100%;
   text-align: center;
   background-color: black;
   color: aliceblue;
   justify-content: center;
-  
+  margin: 0 auto;
+}
+body,
+html {
+  background-color: black;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,47 +27,91 @@
 }
 
 .App-link {
-  color: #17a2c8;
+  color: #0ca1ca;
 }
 
 .footer {
-  position: sticky;
-  border: 1rem red;
+  position: -webkit-sticky;
+  border: 10px red;
+  bottom: 0;
+  width: 100%;
+  height: 40px; /* Height of the footer */
+  background: rgb(10, 111, 161);
+  margin-top: 30px;
 }
-.form-container{
-display: flex;
-justify-content: center;
-margin: 0 auto;
-padding: 30px;
-justify-content: center;
-
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 30px;
+  justify-content: space-evenly;
+  border: 5px white;
 }
-
+.form {
+  display: inline-block;
+  margin: 20px;
+  justify-content: space-around;
+  padding: 30px;
+}
 .create-button {
   background-color: #17a2c8;
   margin: 10px;
- height: 38px;
- width: 75px;
-justify-content: center;
+  height: 38px;
+  width: 75px;
+  justify-content: center;
 }
-.input {
-  margin: 10px;
-  padding: 10px;
+input {
+  display: inline-table;
+  text-align: center;
+  margin: 5px;
+  padding: 3px;
+  justify-content: flex-start;
 }
 .navlink {
   text-align: center;
   text-decoration: none;
   color: rgb(12, 145, 197);
   justify-content: center;
-
 }
 .navlink:visited {
-text-decoration: none;
+  text-decoration: none;
 }
 .SCP-links {
+  display: inline-block;
   color: #17a2c8;
   font-size: small;
-  margin: 15px;
-  padding: 20px;
+  margin: 10px;
+
   justify-content: center;
+}
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+}
+.lable {
+  display: inline-flex;
+  margin: 40px;
+  justify-content: space-between;
+}
+img {
+  justify-content: center;
+  text-align: center;
+  grid-template: subgrid;
+  float: none;
+  max-height: 400px;
+  max-width: 250px;
+  margin: 20px;
+  padding: 30px;
+}
+.Mlink {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+.navlink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

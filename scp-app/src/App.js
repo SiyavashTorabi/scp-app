@@ -13,6 +13,9 @@ function App() {
       <Switch>
         <Route exact path="/SCPs">
           <ScpList />
+          <div>
+            <h2>welcome to site 15,& our Archive of captured/contained Anomalies. </h2>
+          </div>
         </Route>
         <Route exact path="/SCP/:id">
           <ScpDetail />
@@ -24,7 +27,12 @@ function App() {
           <div>Edit</div>
         </Route>
         <Route path="/">
-          <div>Homepage</div>
+          <div>
+            <h2> Homepage </h2>
+            <h4>Welcome to SCP foundation where we contain-protect-secure Anomalys in order to keep humanity safe & use this app in order to keep records of captured Anomalys! </h4>
+            <h5>we fight in dark in ordr to keep humanity safe, any refrence/mention to/of this Facility by any party (no exaption) to the Outside world will be TERMINATED!</h5>
+            
+            </div>
         </Route>
       </Switch>
       <Footer />

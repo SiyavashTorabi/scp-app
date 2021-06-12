@@ -15,7 +15,7 @@ export default function ScpList() {
   }, []);
 
   return (
-    <div>
+    <div className="IT">
       {scps &&
         scps.map((scpItem) => {
           return (
