@@ -32,11 +32,11 @@ export default function NewScp() {
 
   return (
   <>
-      <h3> new SCP-{input.SCP}</h3>
+      <h3> Add captured Anomaly {input.SCP}</h3>
 <div className="form-container">
       <form className="datacontainer" onChange={handleChange} onSubmit={handleSubmit}>
         <label>SCP-</label>
-        <input  type="text" name="SCP" />
+        <input type="text" name="SCP" />
         <br />
         <label>SCP-title</label>
         <input type="text" name="SCP_title" />

@@ -31,13 +31,14 @@ html {
 }
 
 .footer {
-  position: -webkit-sticky;
-  border: 10px red;
-  bottom: 0;
-  width: 100%;
-  height: 40px; /* Height of the footer */
-  background: rgb(9, 57, 57);
-  margin-top: 30px;
+  bottom: 0%;
+  display: flex;
+  height: 40px;
+  margin-top: 130px;
+  justify-content: center;
+  /* flex-direction: row; */
+  align-items: center;
+  background-color: rgb(9, 57, 57);
 }
 .form-container {
   display: flex;
@@ -69,6 +70,7 @@ input {
 }
 
 .navlink {
+  display: flex;
   text-align: center;
   text-decoration: none;
   color: rgb(12, 145, 197);
@@ -119,8 +121,11 @@ img {
 }
 .navlink {
   display: flex;
+  height: 40px;
   justify-content: space-between;
   flex-direction: row;
+  right: 0;
+  left: 0;
   align-items: center;
   background-color: rgb(9, 57, 57);
 }
@@ -147,16 +152,29 @@ img {
 
 }
 .dlt {
-  color: red;
+  Background-color: red;
   width: 60px;
   height: 30px;
+  justify-content: center;
+  margin: 10px;
 }
 .scpimg {
 display: inline-flex;
-justify-content: start;
+justify-content: flex-start;
 align-items: flex-start;
 width: 50px;
 height: 50px;
 margin: 0%;
 padding: 0%;
+}
+.icons {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  /* position: relative; */
+  justify-content: space-between;
+width: 20px;
+margin: 5px;
+height: 20px;
+padding: 5px;
+
 }

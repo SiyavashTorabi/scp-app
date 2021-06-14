@@ -18,10 +18,6 @@ function App() {
             <h2>welcome to site 15,& our Archive of captured/contained Anomalies. </h2>
           </div>
           <ScpList />
-          {/* <div>
-          <img className="scpimg" src="./scp.jpg" alt="scp-logo" />
-            <h2>welcome to site 15,& our Archive of captured/contained Anomalies. </h2>
-          </div> */}
         </Route>
         <Route exact path="/SCP/:id">
           <ScpDetail />
