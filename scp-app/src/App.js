@@ -33,7 +33,7 @@ function App() {
           <img src="./scp.jpg" alt="scp-logo" />
             <h2> Homepage </h2>
             <h4>Welcome to SCP foundation where we Secure-Contain-Protect Anomalys in order to keep humanity safe & use this app in order to keep records of captured Anomalys! </h4>
-            <h5>we fight in dark in ordr to keep humanity safe, any refrence/mention to/of this Facility by any party (no exaption) to the Outside world is to be TERMINATED!</h5>
+            <h5>we fight in dark in ordr to keep humanity in light, any refrence/mention to/of this Facility by any party (no exaption) to the Outside world is to be TERMINATED!</h5>
             
             </div>
         </Route>
