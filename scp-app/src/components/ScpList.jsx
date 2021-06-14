@@ -21,8 +21,6 @@ export default function ScpList() {
         scps.map((scpItem) => {
           return (
             <div className="SCP-links" key={scpItem.id}>
-              {/* <div key={scpItem.SCP_description}> */}
-
               <Link className="SCP-links" to={`/scp/${scpItem.id}`}>
                 {scpItem.fields.SCP}, {scpItem.fields.SCP_title}
               </Link>
