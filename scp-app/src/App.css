@@ -34,7 +34,7 @@ html {
   bottom: 0%;
   display: flex;
   height: 40px;
-  margin-top: 130px;
+  margin-top: 12%;
   justify-content: center;
   /* flex-direction: row; */
   align-items: center;
@@ -108,7 +108,7 @@ img {
   text-align: center;
   float: center;
   max-height: 450px;
-  max-width: 300px;
+  max-width: 350px;
   margin: 20px;
   padding: 30px;
 }
@@ -170,11 +170,19 @@ padding: 0%;
 .icons {
   background-color: rgb(255, 255, 255);
   display: flex;
-  /* position: relative; */
   justify-content: space-between;
 width: 20px;
 margin: 5px;
 height: 20px;
 padding: 5px;
+
+}
+.lock {
+  display: grid;
+  place-items: center;
+
+  position: absolute;
+  inset: 0;
+  background-color: black;
 
 }
