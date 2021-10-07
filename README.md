@@ -70,11 +70,11 @@ post MVP:
 |  Day | Deliverable | Status
 |---|---| ---|
 |june 5-7| Prompt / Wireframes / Timeframes | Incomplete
-|june 7| Project Approval / Core Application Structure (HTML, CSS, etc.) | incomplete
-|june 8| Pseudocode / actual code | incomplete
-|june 9| Initial Clickable Model  | incomplete
+|june 7| Project Approval / Core Application Structure (HTML, CSS, etc.) | complete
+|june 8| Pseudocode / actual code | complete
+|june 9| Initial Clickable Model  | complete
 |june 10| MVP | Incomplete
-|june 11| Presentations | incomplete
+|june 11| Presentations | complete
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
